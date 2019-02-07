@@ -10,7 +10,7 @@ public class EnemeyMovePattern : ScriptableObject {
 	
 	protected Vector3 moveDirection;
 	private Vector3 rotDirection;
-	public bool enabled;
+	//public bool enabled;
 
 	public virtual void Invoke(CharacterController controller, Transform transform)
 	{
