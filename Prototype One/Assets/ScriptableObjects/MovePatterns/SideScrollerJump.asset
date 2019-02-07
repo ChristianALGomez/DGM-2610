@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3196311a70afdf047923b9b8ef087125, type: 3}
+  m_Name: SideScrollerJump
+  m_EditorClassIdentifier: 
+  gravity: {fileID: 11400000, guid: 3b8890d198f6ec0479ed542080e62432, type: 2}
+  MoveX: {fileID: 11400000, guid: 360c173fc61c4504786a0a5e10ad50fb, type: 2}
+  MoveY: {fileID: 11400000, guid: 60eae2e50760c6444b1142c5c3706109, type: 2}
+  MoveZ: {fileID: 11400000, guid: e0716d02f76579e46bbddc4fd3fd5431, type: 2}
+  RotX: {fileID: 11400000, guid: e0716d02f76579e46bbddc4fd3fd5431, type: 2}
+  RotY: {fileID: 11400000, guid: e0716d02f76579e46bbddc4fd3fd5431, type: 2}
+  RotZ: {fileID: 11400000, guid: e0716d02f76579e46bbddc4fd3fd5431, type: 2}
+  enabled: 0
