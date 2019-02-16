@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Ice.ma
-//Last modified: Sat, Feb 16, 2019 12:41:00 PM
+//Last modified: Sat, Feb 16, 2019 01:43:23 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "774CE8C5-4DF2-653E-9798-AA8D8F197F40";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 50.412280429854718 6.7444796895950123 -18.656081164003147 ;
+	setAttr ".t" -type "double3" 192.22292769831427 19.500237064549413 -15.190303596021401 ;
 	setAttr ".r" -type "double3" 1074.8616475426811 -2071.3999999999819 1.6272365595242765e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "80CC19B2-4DED-4701-74F6-67A058CFE3B4";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 73.298356557177243;
+	setAttr ".coi" 215.72370766806227;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -29468,7 +29468,7 @@ createNode groupId -n "groupId15";
 	rename -uid "DCBBAE2A-4A8B-25F1-028C-408F69BDF707";
 	setAttr ".ihi" 0;
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "9F79685C-48E8-D315-DBAC-E68C2D07BA8D";
+	rename -uid "140727DE-4D35-BF88-63B3-30BC568D7BA9";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -2127.0859792605088 -1769.5772560266987 ;
 	setAttr ".tgi[0].vh" -type "double2" 1996.9855038710411 1800.3221215590488 ;
