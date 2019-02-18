@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3196311a70afdf047923b9b8ef087125, type: 3}
   m_Name: SideScrollerJump
   m_EditorClassIdentifier: 
-  gravity: {fileID: 11400000, guid: 3b8890d198f6ec0479ed542080e62432, type: 2}
-  MoveX: {fileID: 11400000, guid: 360c173fc61c4504786a0a5e10ad50fb, type: 2}
-  MoveY: {fileID: 11400000, guid: 4d908ae1ee4ba9e4a93bcf94e2457e51, type: 2}
+  gravity: {fileID: 11400000, guid: 65b6804a14a15d34d808723879334c9f, type: 2}
+  MoveX: {fileID: 11400000, guid: d31a728e4a8428048864fb88902d909c, type: 2}
+  MoveY: {fileID: 11400000, guid: 255923335418b3f4cbe4bdf817a58fb7, type: 2}
   MoveZ: {fileID: 11400000, guid: e0716d02f76579e46bbddc4fd3fd5431, type: 2}
   RotX: {fileID: 11400000, guid: e0716d02f76579e46bbddc4fd3fd5431, type: 2}
   RotY: {fileID: 11400000, guid: e0716d02f76579e46bbddc4fd3fd5431, type: 2}
