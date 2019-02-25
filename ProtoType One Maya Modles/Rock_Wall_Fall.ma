@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Rock_Wall_Fall.ma
-//Last modified: Mon, Feb 25, 2019 02:33:03 PM
+//Last modified: Mon, Feb 25, 2019 02:35:41 PM
 //Codeset: 1252
 file -rdi 1 -ns "Ice" -dr 1 -rfn "IceRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Zenrock/Desktop/DGM-2610_2019/DGM-2610/DGM-2610/ProtoType One Maya Modles/Ice.ma";
 file -r -ns "Ice" -dr 1 -rfn "IceRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Zenrock/Desktop/DGM-2610_2019/DGM-2610/DGM-2610/ProtoType One Maya Modles/Ice.ma";
@@ -15,13 +15,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "2A9394CC-4465-FE7D-1E1B-488F8D129542";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0.78487871113899743 12.946459830487193 -24.459800152882714 ;
-	setAttr ".r" -type "double3" -12.938352729489637 181.40000000000663 0 ;
+	setAttr ".t" -type "double3" 38.318491138870272 31.909330689238065 8.4432848461061827 ;
+	setAttr ".r" -type "double3" -38.138352729488929 81.400000000005264 2.1269584890228477e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "750C5605-47C7-A1CE-C4E9-4CA7108B5AA9";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 33.768358203730472;
+	setAttr ".coi" 48.891767440755899;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
