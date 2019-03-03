@@ -9,6 +9,7 @@
       <e p="Assets" t="Include">
         <e p="CharMove.cs" t="Include" />
         <e p="doubleJump.cs" t="Include" />
+        <e p="EnemyChase.cs" t="Include" />
         <e p="ProCore" t="Include">
           <e p="ProBuilder" t="Include">
             <e p="About" t="Include">
