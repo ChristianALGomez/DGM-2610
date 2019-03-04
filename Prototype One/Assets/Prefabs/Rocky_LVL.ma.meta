@@ -1378,7 +1378,22 @@ ModelImporter:
     4300494: pCone23
     4300496: pCone19
     4300498: pCone20
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: 199c8139708a2584ea5534d1acf6d3fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Platform
+    second: {fileID: 2100000, guid: a07332961e65a804295e26617d726f19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ice
+    second: {fileID: 2100000, guid: f7fd10f45d23ca4489fe9a3d05ab515a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
