@@ -15,12 +15,27 @@ public class EnemyChase : MonoBehaviour
         transform.position += transform.forward * MoveSP * Time.deltaTime;
     }*/
 
-    private void OnTriggerStay(Collider other)
+    
+    public void fallow()
+    {
+        transform.LookAt(player.transform);
+        transform.position += transform.forward * MoveSP * Time.deltaTime;
+    }
+    
+    private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.name == ("Player"))
         {
-            transform.LookAt(player.transform);
-            transform.position += transform.forward * MoveSP * Time.deltaTime;
+            fallow();
         }
     }
+
+
+    private void Update()
+    {
+        fallow();
+    }
 }
+
+
+
