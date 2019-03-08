@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class doubleJump : MonoBehaviour
+public class DoubleJump : MonoBehaviour
 {
     private CharacterController controller;
     private Vector3 position;
 
+    public float SpeedUp = 3;
     public float MoveSpeed = 5;
     public float Graity = 1;
     public float JumpValue = 20;
@@ -17,6 +18,11 @@ public class doubleJump : MonoBehaviour
     {
         jumpStart = JumpCount;
         controller = GetComponent<CharacterController>();
+    }
+
+    void run()
+    {
+        position.x = Input.GetAxis("Horizontal") * MoveSpeed + SpeedUp * Time.deltaTime;
     }
 
 

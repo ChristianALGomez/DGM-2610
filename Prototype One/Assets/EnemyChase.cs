@@ -6,6 +6,9 @@ public class EnemyChase : MonoBehaviour
 {
     public GameObject player;
     public float MoveSP = 5;
+    public float SpeedUP = 1;
+    private float currentTime;
+    private float timeToIncrease = 0.20f;
 
 
     // Update is called once per frame
@@ -15,8 +18,13 @@ public class EnemyChase : MonoBehaviour
         transform.position += transform.forward * MoveSP * Time.deltaTime;
     }*/
 
-    
-    public void fallow()
+    private void Start()
+    {
+        currentTime = timeToIncrease + SpeedUP;
+    }
+
+
+    public void follow()
     {
         transform.LookAt(player.transform);
         transform.position += transform.forward * MoveSP * Time.deltaTime;
@@ -26,14 +34,19 @@ public class EnemyChase : MonoBehaviour
     {
         if (other.gameObject.name == ("Player"))
         {
-            fallow();
+            follow();
         }
     }
 
 
     private void Update()
     {
-        fallow();
+        follow();
+        if (Time.time >= currentTime)
+        {
+            MoveSP += SpeedUP * timeToIncrease;
+        }
+        
     }
 }
 

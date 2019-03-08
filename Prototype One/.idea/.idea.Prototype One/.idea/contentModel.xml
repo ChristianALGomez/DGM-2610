@@ -11,6 +11,7 @@
         <e p="Destroy_Enemy.cs" t="Include" />
         <e p="Detector.cs" t="Include" />
         <e p="DetectorLag.cs" t="Include" />
+        <e p="DoubleClick.cs" t="Include" />
         <e p="doubleJump.cs" t="Include" />
         <e p="EnemyChase.cs" t="Include" />
         <e p="ForceApplyedDown.cs" t="Include" />
