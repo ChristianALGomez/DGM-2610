@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Wall
+  - Spikes
+  - Light
   layers:
   - Default
   - TransparentFX

@@ -11,7 +11,8 @@ public class DoubleClick : MonoBehaviour
     private Coroutine coroutine;
 
     public UnityEvent Event;
-
+    
+    
     private IEnumerator OnStart()
     {
         yield return new WaitForSeconds(ClickCoolDownTime);

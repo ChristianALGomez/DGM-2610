@@ -15,7 +15,10 @@
         <e p="doubleJump.cs" t="Include" />
         <e p="EnemyChase.cs" t="Include" />
         <e p="ForceApplyedDown.cs" t="Include" />
+        <e p="OFF_ON_Switch.cs" t="Include" />
         <e p="ON_OFF_Switch.cs" t="Include" />
+        <e p="OutLine.cs" t="Include" />
+        <e p="PointToMouse.cs" t="Include" />
         <e p="ProCore" t="Include">
           <e p="ProBuilder" t="Include">
             <e p="About" t="Include">
@@ -196,6 +199,7 @@
           </e>
           <e p="PlatformController.cs" t="Include" />
         </e>
+        <e p="SlowDown.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
