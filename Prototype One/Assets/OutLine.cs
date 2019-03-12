@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class OutLine : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject OLT;
+    
+
+
+    private void Start()
     {
-        
+       OLT.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.gameObject.CompareTag("Light"))
+        {
+            OLT.SetActive(true);
+        }
+        else
+        {
+            OLT.SetActive(false);
+        }
     }
+    
 }

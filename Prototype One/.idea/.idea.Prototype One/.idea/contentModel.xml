@@ -15,6 +15,7 @@
         <e p="doubleJump.cs" t="Include" />
         <e p="EnemyChase.cs" t="Include" />
         <e p="ForceApplyedDown.cs" t="Include" />
+        <e p="HighlightItem.cs" t="Include" />
         <e p="OFF_ON_Switch.cs" t="Include" />
         <e p="ON_OFF_Switch.cs" t="Include" />
         <e p="OutLine.cs" t="Include" />
