@@ -20,10 +20,13 @@ public class OutLine : MonoBehaviour
         {
             OLT.SetActive(true);
         }
-        else
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Light"))
         {
             OLT.SetActive(false);
         }
     }
-    
 }
