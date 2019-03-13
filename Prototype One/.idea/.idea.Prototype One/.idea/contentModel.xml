@@ -14,6 +14,7 @@
         <e p="DoubleClick.cs" t="Include" />
         <e p="doubleJump.cs" t="Include" />
         <e p="EnemyChase.cs" t="Include" />
+        <e p="FallingBridge.cs" t="Include" />
         <e p="ForceApplyedDown.cs" t="Include" />
         <e p="HighlightItem.cs" t="Include" />
         <e p="OFF_ON_Switch.cs" t="Include" />
@@ -177,7 +178,6 @@
         <e p="Scripts" t="Include">
           <e p="CameraMovment.cs" t="Include" />
           <e p="DoNotDestory.cs" t="Include" />
-          <e p="Falling Bridge.cs" t="Include" />
           <e p="FallingWallScript.cs" t="Include" />
           <e p="Floats" t="Include">
             <e p="FloatBool.cs" t="Include" />
