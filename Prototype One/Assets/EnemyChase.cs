@@ -8,7 +8,9 @@ public class EnemyChase : MonoBehaviour
     public float MoveSP = 5;
     public float SpeedUP = 1;
     private float currentTime;
-    private float timeToIncrease = 0.20f;
+    private float timeToIncrease = 0.10f;
+    private float Maxspeed = 50;
+    private bool SpeedLimit = false;
 
 
     // Update is called once per frame

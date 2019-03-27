@@ -34,6 +34,10 @@ public class CharMove : MonoBehaviour
     {
       
         MoveSpeed = MoveSpeed - slow;
+        if (MoveSpeed < 0)
+        {
+            MoveSpeed = 0;
+        }
     }
 
     private void Update()
