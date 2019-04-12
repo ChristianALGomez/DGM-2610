@@ -8,6 +8,8 @@ TagManager:
   - Wall
   - Spikes
   - Light
+  - PUP
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -24,8 +26,8 @@ TagManager:
   - Player
   - Light
   - Outline
-  - 
-  - 
+  - Holder
+  - SpeedGadge
   - 
   - 
   - 

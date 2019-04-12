@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: e0331aa7892188547a2823e8f3ce1f42
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Back_Spikes
+    100002: Back_Spikes1
+    100004: Back_Spikes10
+    100006: Back_Spikes11
+    100008: Back_Spikes12
+    100010: Back_Spikes13
+    100012: Back_Spikes14
+    100014: Back_Spikes15
+    100016: Back_Spikes2
+    100018: Back_Spikes3
+    100020: Back_Spikes4
+    100022: Back_Spikes5
+    100024: Back_Spikes6
+    100026: Back_Spikes7
+    100028: Back_Spikes8
+    100030: Back_Spikes9
+    100032: Front_Spikes
+    100034: Front_Spikes1
+    100036: Front_Spikes10
+    100038: Front_Spikes11
+    100040: Front_Spikes12
+    100042: Front_Spikes13
+    100044: Front_Spikes14
+    100046: Front_Spikes15
+    100048: Front_Spikes16
+    100050: Front_Spikes17
+    100052: Front_Spikes2
+    100054: Front_Spikes3
+    100056: Front_Spikes4
+    100058: Front_Spikes5
+    100060: Front_Spikes6
+    100062: Front_Spikes7
+    100064: Front_Spikes8
+    100066: Front_Spikes9
+    100068: group1
+    100070: group2
+    100072: group3
+    100074: Ice_platform15
+    100076: Ice_platform16
+    100078: Ice_platform17
+    100080: Ice_platform18
+    100082: Ice_platform19
+    100084: Ice_platform20
+    100086: Ice_platform21
+    100088: Ice_platform22
+    100090: Ice_platform23
+    100092: Ice_platform24
+    100094: pCone1
+    100096: pCone19
+    100098: pCone20
+    100100: pCone21
+    100102: pCone24
+    100104: pCone24 1
+    100106: pCone25
+    100108: pCone25 1
+    100110: pCone31
+    100112: pCone31 1
+    100114: pCone37
+    100116: pCone38
+    100118: pCone39
+    100120: pCone40
+    100122: pCone41
+    100124: pCone42
+    100126: pCone43
+    100128: pCone44
+    100130: pCone45
+    100132: pCube1
+    100134: //RootNode
+    100136: Spikes
+    100138: Spikes10
+    100140: Spikes11
+    100142: Spikes12
+    100144: Spikes13
+    100146: Spikes2
+    100148: Spikes3
+    100150: Spikes4
+    100152: Spikes5
+    100154: Spikes6
+    100156: Spikes7
+    100158: Spikes8
+    100160: Spikes9
+    400000: Back_Spikes
+    400002: Back_Spikes1
+    400004: Back_Spikes10
+    400006: Back_Spikes11
+    400008: Back_Spikes12
+    400010: Back_Spikes13
+    400012: Back_Spikes14
+    400014: Back_Spikes15
+    400016: Back_Spikes2
+    400018: Back_Spikes3
+    400020: Back_Spikes4
+    400022: Back_Spikes5
+    400024: Back_Spikes6
+    400026: Back_Spikes7
+    400028: Back_Spikes8
+    400030: Back_Spikes9
+    400032: Front_Spikes
+    400034: Front_Spikes1
+    400036: Front_Spikes10
+    400038: Front_Spikes11
+    400040: Front_Spikes12
+    400042: Front_Spikes13
+    400044: Front_Spikes14
+    400046: Front_Spikes15
+    400048: Front_Spikes16
+    400050: Front_Spikes17
+    400052: Front_Spikes2
+    400054: Front_Spikes3
+    400056: Front_Spikes4
+    400058: Front_Spikes5
+    400060: Front_Spikes6
+    400062: Front_Spikes7
+    400064: Front_Spikes8
+    400066: Front_Spikes9
+    400068: group1
+    400070: group2
+    400072: group3
+    400074: Ice_platform15
+    400076: Ice_platform16
+    400078: Ice_platform17
+    400080: Ice_platform18
+    400082: Ice_platform19
+    400084: Ice_platform20
+    400086: Ice_platform21
+    400088: Ice_platform22
+    400090: Ice_platform23
+    400092: Ice_platform24
+    400094: pCone1
+    400096: pCone19
+    400098: pCone20
+    400100: pCone21
+    400102: pCone24
+    400104: pCone24 1
+    400106: pCone25
+    400108: pCone25 1
+    400110: pCone31
+    400112: pCone31 1
+    400114: pCone37
+    400116: pCone38
+    400118: pCone39
+    400120: pCone40
+    400122: pCone41
+    400124: pCone42
+    400126: pCone43
+    400128: pCone44
+    400130: pCone45
+    400132: pCube1
+    400134: //RootNode
+    400136: Spikes
+    400138: Spikes10
+    400140: Spikes11
+    400142: Spikes12
+    400144: Spikes13
+    400146: Spikes2
+    400148: Spikes3
+    400150: Spikes4
+    400152: Spikes5
+    400154: Spikes6
+    400156: Spikes7
+    400158: Spikes8
+    400160: Spikes9
+    2100000: Platform
+    2100002: Default_Material
+    2300000: pCone1
+    2300002: pCone19
+    2300004: pCone20
+    2300006: pCone21
+    2300008: pCone24
+    2300010: pCone24 1
+    2300012: pCone25
+    2300014: pCone25 1
+    2300016: pCone31
+    2300018: pCone31 1
+    2300020: pCone37
+    2300022: pCone38
+    2300024: pCone39
+    2300026: pCone40
+    2300028: pCone41
+    2300030: pCone42
+    2300032: pCone43
+    2300034: pCone44
+    2300036: pCone45
+    2300038: pCube1
+    3300000: pCone1
+    3300002: pCone19
+    3300004: pCone20
+    3300006: pCone21
+    3300008: pCone24
+    3300010: pCone24 1
+    3300012: pCone25
+    3300014: pCone25 1
+    3300016: pCone31
+    3300018: pCone31 1
+    3300020: pCone37
+    3300022: pCone38
+    3300024: pCone39
+    3300026: pCone40
+    3300028: pCone41
+    3300030: pCone42
+    3300032: pCone43
+    3300034: pCone44
+    3300036: pCone45
+    3300038: pCube1
+    4300000: pCone1
+    4300002: pCube1
+    4300004: pCone37
+    4300006: pCone38
+    4300008: pCone39
+    4300010: pCone40
+    4300012: pCone41
+    4300014: pCone42
+    4300016: pCone43
+    4300018: pCone44
+    4300020: pCone45
+    4300022: pCone21
+    4300024: pCone19
+    4300026: pCone20
+    4300028: pCone25
+    4300030: pCone31
+    4300032: pCone24
+    4300034: pCone25
+    4300036: pCone31
+    4300038: pCone24
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: 199c8139708a2584ea5534d1acf6d3fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Platform
+    second: {fileID: 2100000, guid: a07332961e65a804295e26617d726f19, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
