@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Hero_Rig.ma
-//Last modified: Tue, Apr 16, 2019 02:54:01 PM
+//Last modified: Tue, Apr 16, 2019 04:18:06 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,15 +13,15 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "137441A1-46AA-3A90-4036-49B8EEEE79E2";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -5.149737282618239 2.9830456235479246 -0.20640844315068765 ;
-	setAttr ".r" -type "double3" -20.738352728401299 -1534.9999999992683 0 ;
+	setAttr ".t" -type "double3" -2.0785472877618218 6.0533852420551488 5.7942706814171228 ;
+	setAttr ".r" -type "double3" -44.138352730389521 -1461.799999999969 1.7127642605743105e-15 ;
 	setAttr ".rp" -type "double3" -2.2204460492503131e-16 0 1.7763568394002505e-15 ;
 	setAttr ".rpt" -type "double3" 1.7907281822824067e-15 4.8779279107133038e-16 -2.4877199355533135e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "9907E7A5-4D6D-BC99-2F5B-86ACEDEEE16F";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 5.9120589312407219;
+	setAttr ".coi" 8.5094925890806383;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
