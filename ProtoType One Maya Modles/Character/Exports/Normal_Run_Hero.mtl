@@ -1,0 +1,30 @@
+newmtl Hero_Rig:lambert3SG
+illum 4
+Kd 0.30 0.30 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Hero_Rig:lambert4SG
+illum 4
+Kd 0.03 0.03 0.27
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Hero_Rig:lambert5SG
+illum 4
+Kd 0.92 0.69 0.69
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Hero_Rig:lambert6SG
+illum 4
+Kd 0.04 0.04 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Hero_Rig:lambert7SG
+illum 4
+Kd 0.51 0.22 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
