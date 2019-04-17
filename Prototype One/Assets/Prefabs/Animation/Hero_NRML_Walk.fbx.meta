@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: e44832ac17ce0d54a9ccbef84b9b5669
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Hero_Rig:Ankle
+    100004: Hero_Rig:Ankle 1
+    100006: Hero_Rig:Chest
+    100008: Hero_Rig:COG
+    100010: Hero_Rig:COG_Grp
+    100012: Hero_Rig:Foot
+    100014: Hero_Rig:Foot 1
+    100016: Hero_Rig:ForArm
+    100018: Hero_Rig:ForArm 1
+    100020: Hero_Rig:GEO
+    100022: Hero_Rig:Hand
+    100024: Hero_Rig:Hand 1
+    100026: Hero_Rig:Head
+    100028: Hero_Rig:Head_JNT
+    100030: Hero_Rig:JNT
+    100032: Hero_Rig:L_Ankle_JNT
+    100034: Hero_Rig:L_Elbow_JNT
+    100036: Hero_Rig:L_Heel_JNT
+    100038: Hero_Rig:L_Hip_JNT
+    100040: Hero_Rig:L_Knee_JNT
+    100042: Hero_Rig:L_Shoulder_JNT
+    100044: Hero_Rig:L_Toes_JNT
+    100046: Hero_Rig:L_Wrist_JNT
+    100048: Hero_Rig:Miner
+    100050: Hero_Rig:pCube1
+    100052: Hero_Rig:pCube1 1
+    100054: Hero_Rig:pCube2
+    100056: Hero_Rig:pCube2 1
+    100058: Hero_Rig:pCube3
+    100060: Hero_Rig:pCube3 1
+    100062: Hero_Rig:R_Ankle_JNT
+    100064: Hero_Rig:R_Arm
+    100066: Hero_Rig:R_Arm1
+    100068: Hero_Rig:R_Elbow_JNT
+    100070: Hero_Rig:R_Heel_JNT
+    100072: Hero_Rig:R_Hip_JNT
+    100074: Hero_Rig:R_Knee_JNT
+    100076: Hero_Rig:R_Leg
+    100078: Hero_Rig:R_Leg1
+    100080: Hero_Rig:R_Shoulder_JNT
+    100082: Hero_Rig:R_Toes_JNT
+    100084: Hero_Rig:R_Wrist_JNT
+    100086: Hero_Rig:Root_JNT
+    100088: Hero_Rig:Shoulder
+    100090: Hero_Rig:Shoulder 1
+    100092: Hero_Rig:Stomach_JNT
+    100094: Hero_Rig:Thigh
+    100096: Hero_Rig:Thigh 1
+    100098: Hero_Rig:transform
+    100100: Hero_Rig:Transform_Grp
+    100102: Hero_Rig:Waist
+    100104: Hero_Rig:Waist_JNT
+    400000: //RootNode
+    400002: Hero_Rig:Ankle
+    400004: Hero_Rig:Ankle 1
+    400006: Hero_Rig:Chest
+    400008: Hero_Rig:COG
+    400010: Hero_Rig:COG_Grp
+    400012: Hero_Rig:Foot
+    400014: Hero_Rig:Foot 1
+    400016: Hero_Rig:ForArm
+    400018: Hero_Rig:ForArm 1
+    400020: Hero_Rig:GEO
+    400022: Hero_Rig:Hand
+    400024: Hero_Rig:Hand 1
+    400026: Hero_Rig:Head
+    400028: Hero_Rig:Head_JNT
+    400030: Hero_Rig:JNT
+    400032: Hero_Rig:L_Ankle_JNT
+    400034: Hero_Rig:L_Elbow_JNT
+    400036: Hero_Rig:L_Heel_JNT
+    400038: Hero_Rig:L_Hip_JNT
+    400040: Hero_Rig:L_Knee_JNT
+    400042: Hero_Rig:L_Shoulder_JNT
+    400044: Hero_Rig:L_Toes_JNT
+    400046: Hero_Rig:L_Wrist_JNT
+    400048: Hero_Rig:Miner
+    400050: Hero_Rig:pCube1
+    400052: Hero_Rig:pCube1 1
+    400054: Hero_Rig:pCube2
+    400056: Hero_Rig:pCube2 1
+    400058: Hero_Rig:pCube3
+    400060: Hero_Rig:pCube3 1
+    400062: Hero_Rig:R_Ankle_JNT
+    400064: Hero_Rig:R_Arm
+    400066: Hero_Rig:R_Arm1
+    400068: Hero_Rig:R_Elbow_JNT
+    400070: Hero_Rig:R_Heel_JNT
+    400072: Hero_Rig:R_Hip_JNT
+    400074: Hero_Rig:R_Knee_JNT
+    400076: Hero_Rig:R_Leg
+    400078: Hero_Rig:R_Leg1
+    400080: Hero_Rig:R_Shoulder_JNT
+    400082: Hero_Rig:R_Toes_JNT
+    400084: Hero_Rig:R_Wrist_JNT
+    400086: Hero_Rig:Root_JNT
+    400088: Hero_Rig:Shoulder
+    400090: Hero_Rig:Shoulder 1
+    400092: Hero_Rig:Stomach_JNT
+    400094: Hero_Rig:Thigh
+    400096: Hero_Rig:Thigh 1
+    400098: Hero_Rig:transform
+    400100: Hero_Rig:Transform_Grp
+    400102: Hero_Rig:Waist
+    400104: Hero_Rig:Waist_JNT
+    2100000: Hero_Rig_ChestColor
+    2100002: Hero_Rig_Skin
+    2100004: Hero_Rig_PantsColor
+    2100006: Hero_Rig_Helmate
+    2100008: Hero_Rig_Shoe
+    4300000: Hero_Rig:Chest
+    4300002: Hero_Rig:Waist
+    4300004: Hero_Rig:Head
+    4300006: Hero_Rig:Hand
+    4300008: Hero_Rig:ForArm
+    4300010: Hero_Rig:Shoulder
+    4300012: Hero_Rig:pCube1
+    4300014: Hero_Rig:pCube2
+    4300016: Hero_Rig:pCube3
+    4300018: Hero_Rig:Thigh
+    4300020: Hero_Rig:Ankle
+    4300022: Hero_Rig:Hand
+    4300024: Hero_Rig:ForArm
+    4300026: Hero_Rig:Shoulder
+    4300028: Hero_Rig:pCube1
+    4300030: Hero_Rig:pCube2
+    4300032: Hero_Rig:pCube3
+    4300034: Hero_Rig:Thigh
+    4300036: Hero_Rig:Ankle
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Hero_Rig:Ankle
+    13700002: Hero_Rig:Ankle 1
+    13700004: Hero_Rig:Chest
+    13700006: Hero_Rig:ForArm
+    13700008: Hero_Rig:ForArm 1
+    13700010: Hero_Rig:Hand
+    13700012: Hero_Rig:Hand 1
+    13700014: Hero_Rig:Head
+    13700016: Hero_Rig:pCube1
+    13700018: Hero_Rig:pCube1 1
+    13700020: Hero_Rig:pCube2
+    13700022: Hero_Rig:pCube2 1
+    13700024: Hero_Rig:pCube3
+    13700026: Hero_Rig:pCube3 1
+    13700028: Hero_Rig:Shoulder
+    13700030: Hero_Rig:Shoulder 1
+    13700032: Hero_Rig:Thigh
+    13700034: Hero_Rig:Thigh 1
+    13700036: Hero_Rig:Waist
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
