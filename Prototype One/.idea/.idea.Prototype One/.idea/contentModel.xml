@@ -7,26 +7,6 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="CharMove.cs" t="Include" />
-        <e p="Damage.cs" t="Include" />
-        <e p="Destroy_Enemy.cs" t="Include" />
-        <e p="Detector.cs" t="Include" />
-        <e p="DetectorLag.cs" t="Include" />
-        <e p="DoubleClick.cs" t="Include" />
-        <e p="doubleJump.cs" t="Include" />
-        <e p="EnemyAttack.cs" t="Include" />
-        <e p="EnemyChase.cs" t="Include" />
-        <e p="FallingBridge.cs" t="Include" />
-        <e p="ForceApplyedDown.cs" t="Include" />
-        <e p="HighlightItem.cs" t="Include" />
-        <e p="InstaDeath.cs" t="Include" />
-        <e p="LinkSpeed.cs" t="Include" />
-        <e p="OFF_ON_Switch.cs" t="Include" />
-        <e p="ON_OFF_Switch.cs" t="Include" />
-        <e p="OutLine.cs" t="Include" />
-        <e p="PlayerLife.cs" t="Include" />
-        <e p="PointToMouse.cs" t="Include" />
-        <e p="PowerUp.cs" t="Include" />
         <e p="ProCore" t="Include">
           <e p="ProBuilder" t="Include">
             <e p="About" t="Include">
@@ -182,32 +162,33 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AnimationCNTL.cs" t="Include" />
           <e p="CameraMovment.cs" t="Include" />
+          <e p="CharMove.cs" t="Include" />
+          <e p="Damage.cs" t="Include" />
+          <e p="Destroy_Enemy.cs" t="Include" />
+          <e p="Detector.cs" t="Include" />
+          <e p="DetectorLag.cs" t="Include" />
           <e p="DoNotDestory.cs" t="Include" />
+          <e p="DoubleClick.cs" t="Include" />
+          <e p="doubleJump.cs" t="Include" />
+          <e p="EnemyAttack.cs" t="Include" />
+          <e p="EnemyChase.cs" t="Include" />
+          <e p="FallingBridge.cs" t="Include" />
           <e p="FallingWallScript.cs" t="Include" />
-          <e p="Floats" t="Include">
-            <e p="FloatBool.cs" t="Include" />
-            <e p="FloatDataScript.cs" t="Include" />
-            <e p="FloatInput.cs" t="Include" />
-          </e>
-          <e p="ID" t="Include">
-            <e p="MatchID.cs" t="Include" />
-            <e p="NameID.cs" t="Include" />
-            <e p="ObjectID.cs" t="Include" />
-          </e>
-          <e p="Move" t="Include">
-            <e p="CharacterMovment.cs" t="Include" />
-            <e p="EnemeyMovePattern.cs" t="Include" />
-            <e p="EnemyMovment.cs" t="Include" />
-            <e p="FallEn.cs" t="Include" />
-            <e p="MovePattern.cs" t="Include" />
-            <e p="MovePatternDual.cs" t="Include" />
-            <e p="MovePatternNotGrounded.cs" t="Include" />
-          </e>
+          <e p="ForceApplyedDown.cs" t="Include" />
+          <e p="HighlightItem.cs" t="Include" />
+          <e p="InstaDeath.cs" t="Include" />
+          <e p="LinkSpeed.cs" t="Include" />
+          <e p="OFF_ON_Switch.cs" t="Include" />
+          <e p="ON_OFF_Switch.cs" t="Include" />
+          <e p="OutLine.cs" t="Include" />
           <e p="PlatformController.cs" t="Include" />
+          <e p="PointToMouse.cs" t="Include" />
+          <e p="PowerUp.cs" t="Include" />
+          <e p="SlowDown.cs" t="Include" />
+          <e p="SpeedGaudge.cs" t="Include" />
         </e>
-        <e p="SlowDown.cs" t="Include" />
-        <e p="SpeedGaudge.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

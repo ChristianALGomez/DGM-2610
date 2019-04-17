@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectID : MonoBehaviour
+public class AnimationCNTL : MonoBehaviour
 {
-	public NameID ID;
-
+    
 }

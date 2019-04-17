@@ -8,11 +8,12 @@ public class CharMove : MonoBehaviour
     
     private CharacterController controller;
     private Vector3 position;
-    
+
+    public DoubleJump DJ;
     public float SpeedUp = 10;
     public float MoveSpeed = 5;
     //public LinkSpeed LS;
-    public SpeedGaudge SPG;
+    //public SpeedGaudge SPG;
     //public Damage hurt;
     //public float Graity = 1;
     //public SlowDown slow;
@@ -20,32 +21,83 @@ public class CharMove : MonoBehaviour
     public float slow = 5;
     public float SpikeSlow = 10;
     public float speedRecover = 5;
+    public Animator anim;
+    public bool moving;
+    public bool running;
+    public bool idel;
+    public bool moveChecker;
     
     private void Start()
     {
         controller = GetComponent<CharacterController>();
+        anim = GetComponent<Animator>();
         //slow = GetComponent<SlowDown>();
         DImage.SetActive(false);
+        moving = false;
+        running = false;
+        idel = true;
+        moveChecker = false;
+        GameObject Player = GameObject.FindGameObjectWithTag("Player");
+        DJ = Player.GetComponent<DoubleJump>();
     }
 
     private void Update()
     {
+        anim.SetBool("Run",running);
+        anim.SetBool("Walk", moving);
+        anim.SetBool("Idel", idel);
+        //DJ.jumping = false;
         //GetComponent<LinkSpeed>().ChangeSPD();
+        /*if (moving)
+        {
+            anim.Play("Fast_Run",-1,0f);
+        }
+        else
+        {
+            if (running)
+            {
+                anim.Play("NRML_Run",-1,0f);
+            }
+        }*/
     }
 
     public void incrementSpeedGaudge(int amount)
     {
-        SPG.value += amount;
+        //SPG.value += amount;
     }
 
+    void JumpCompensator()
+    {
+        if (moveChecker)
+        {
+            DJ.jumping = false;
+        }
+        else
+        {
+            if (DJ.jumpCheckr)
+            {
+                DJ.jumping = true;
+            }
+        }
+    }
+    
     void move()
     {
         position.x = Input.GetAxis("Horizontal") * MoveSpeed * Time.deltaTime;
+        //moving = true;
+        JumpCompensator();
+        running = false;
+        //DJ.jumping = false;
+        //anim.Play("NRML_Run",-1,0f);
     }
 
     public void run()
     {
         position.x = Input.GetAxis("Horizontal") * MoveSpeed * SpeedUp * Time.deltaTime;
+        running = true;
+        moving = false;
+        DJ.jumping = false;
+        //anim.Play("Fast_Run",-1,0f);
     }
     public void PlayerDeath()
     {
@@ -89,20 +141,26 @@ public class CharMove : MonoBehaviour
 
     private void FixedUpdate()
     {
-        move();
+        //move();
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
             run();
+           // moving = false;
+            //DJ.jumping = false;
         }
         else
         {
+           // anim.Play("Take 001", -1,0f);
             move();
+            moveChecker = true;
+            //running = false;
+            //DJ.jumping = false;
         }
 
         controller.Move(position);
     }
-    
+
     IEnumerator Flicker()
     {
         DImage.SetActive(true);
