@@ -36,13 +36,21 @@ public class DoubleJump : MonoBehaviour
     {
         anim.SetBool("Jump",jumping);
         
-        
         controller.Move(position);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            jumping = true;
+            jumpCheckr = true;
+            CM.running = false;
+            CM.moving = false;
+        }
+        
         if (JumpCount > 1 && Input.GetKeyDown(KeyCode.Space))
         {
+            jumping = true;
             JumpCount--;
             position.y = JumpValue * Time.deltaTime;
-            jumping = true;
             jumpCheckr = true;
             CM.running = false;
             CM.moving = false;

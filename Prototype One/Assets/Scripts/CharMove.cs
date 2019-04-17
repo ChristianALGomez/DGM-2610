@@ -26,6 +26,7 @@ public class CharMove : MonoBehaviour
     public bool running;
     public bool idel;
     public bool moveChecker;
+    public bool SlowDownChecker;
     
     private void Start()
     {
@@ -46,6 +47,7 @@ public class CharMove : MonoBehaviour
         anim.SetBool("Run",running);
         anim.SetBool("Walk", moving);
         anim.SetBool("Idel", idel);
+        anim.SetBool("SlowDown", SlowDownChecker);
         //DJ.jumping = false;
         //GetComponent<LinkSpeed>().ChangeSPD();
         /*if (moving)
@@ -66,18 +68,50 @@ public class CharMove : MonoBehaviour
         //SPG.value += amount;
     }
 
-    void JumpCompensator()
+    void JumpCompensatorForMove()
     {
-        if (moveChecker)
+        if (DJ.jumpCheckr)
         {
-            DJ.jumping = false;
+            DJ.jumping = true;
+            moving = false;
+            
         }
         else
         {
-            if (DJ.jumpCheckr)
-            {
-                DJ.jumping = true;
-            }
+            DJ.jumping = false;
+            moving = true;
+        }
+    }
+
+    void RunSlowDownAnim()
+    {
+        //running = true;
+        if (MoveSpeed <= 10f)
+        {
+            running = false;
+            moving = true;
+            SlowDownChecker = true;
+        }
+        else
+        {
+            running = true;
+            SlowDownChecker = false;
+            moving = false;
+        }
+    }
+    
+    void JumpCompensatorForRun()
+    {
+        if (DJ.jumpCheckr)
+        {
+            DJ.jumping = true;
+            running = false;
+            
+        }
+        else
+        {
+            DJ.jumping = false;
+            RunSlowDownAnim();
         }
     }
     
@@ -85,7 +119,7 @@ public class CharMove : MonoBehaviour
     {
         position.x = Input.GetAxis("Horizontal") * MoveSpeed * Time.deltaTime;
         //moving = true;
-        JumpCompensator();
+        JumpCompensatorForMove();
         running = false;
         //DJ.jumping = false;
         //anim.Play("NRML_Run",-1,0f);
@@ -94,9 +128,10 @@ public class CharMove : MonoBehaviour
     public void run()
     {
         position.x = Input.GetAxis("Horizontal") * MoveSpeed * SpeedUp * Time.deltaTime;
-        running = true;
-        moving = false;
-        DJ.jumping = false;
+        //running = true;
+        JumpCompensatorForRun();
+        //moving = false;
+        //DJ.jumping = false;
         //anim.Play("Fast_Run",-1,0f);
     }
     public void PlayerDeath()
