@@ -1,30 +1,66 @@
 fileFormatVersion: 2
-guid: 235c7482a0e401b40916dd56a52bcfbd
+guid: 0846d29febfda37469471a850313e035
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Villain:COG
-    100004: Villain:COG_CNTL
-    100006: Villain:Enemy_Geo
-    100008: Villain:Enemy_Geo 1
-    100010: Villain:Transform_CNTL
+    100002: Move_Root_CNTL
+    100004: MOVE_ROOT_GRP
+    100006: Villain:CNTL
+    100008: Villain:COG
+    100010: Villain:COG_CNTL
+    100012: Villain:Enemy_Geo
+    100014: Villain:Enemy_Geo 1
+    100016: Villain:Head_CNTL
+    100018: Villain:Head_CNTL_Grp
+    100020: Villain:Head_JNT
+    100022: Villain:Jaw_CNTL
+    100024: Villain:Jaw_CNTL_Grp
+    100026: Villain:Jaw_JNT
+    100028: Villain:JNT
+    100030: Villain:Root_JNT
+    100032: Villain:Tail1_JNT
+    100034: Villain:Tail2_JNT
+    100036: Villain:Tail3_JNT
+    100038: Villain:Tail_CNTL
+    100040: Villain:Tail_CNTL1
+    100042: Villain:Tail_CNTL2
+    100044: Villain:Tail_CNTL_Grp
+    100046: Villain:Tail_CNTL_Grp1
+    100048: Villain:Tail_CNTL_Grp2
+    100050: Villain:Transform_CNTL
     400000: //RootNode
-    400002: Villain:COG
-    400004: Villain:COG_CNTL
-    400006: Villain:Enemy_Geo
-    400008: Villain:Enemy_Geo 1
-    400010: Villain:Transform_CNTL
+    400002: Move_Root_CNTL
+    400004: MOVE_ROOT_GRP
+    400006: Villain:CNTL
+    400008: Villain:COG
+    400010: Villain:COG_CNTL
+    400012: Villain:Enemy_Geo
+    400014: Villain:Enemy_Geo 1
+    400016: Villain:Head_CNTL
+    400018: Villain:Head_CNTL_Grp
+    400020: Villain:Head_JNT
+    400022: Villain:Jaw_CNTL
+    400024: Villain:Jaw_CNTL_Grp
+    400026: Villain:Jaw_JNT
+    400028: Villain:JNT
+    400030: Villain:Root_JNT
+    400032: Villain:Tail1_JNT
+    400034: Villain:Tail2_JNT
+    400036: Villain:Tail3_JNT
+    400038: Villain:Tail_CNTL
+    400040: Villain:Tail_CNTL1
+    400042: Villain:Tail_CNTL2
+    400044: Villain:Tail_CNTL_Grp
+    400046: Villain:Tail_CNTL_Grp1
+    400048: Villain:Tail_CNTL_Grp2
+    400050: Villain:Transform_CNTL
     2100000: lambert1
-    2300000: Villain:Enemy_Geo 1
-    3300000: Villain:Enemy_Geo 1
     4300000: Villain:Enemy_Geo
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: e75d1d5a4b383d44fb86149d627160ca, type: 2}
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Villain:Enemy_Geo 1
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -76,8 +112,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -104,7 +140,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

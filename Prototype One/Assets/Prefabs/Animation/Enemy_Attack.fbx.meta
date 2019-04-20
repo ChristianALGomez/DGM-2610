@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: bc68268034972b9478203d40240e1aeb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Move_Root_CNTL
+    100004: MOVE_ROOT_GRP
+    100006: Villain:CNTL
+    100008: Villain:COG
+    100010: Villain:COG_CNTL
+    100012: Villain:Enemy_Geo
+    100014: Villain:Enemy_Geo 1
+    100016: Villain:Head_CNTL
+    100018: Villain:Head_CNTL_Grp
+    100020: Villain:Head_JNT
+    100022: Villain:Jaw_CNTL
+    100024: Villain:Jaw_CNTL_Grp
+    100026: Villain:Jaw_JNT
+    100028: Villain:JNT
+    100030: Villain:Root_JNT
+    100032: Villain:Tail1_JNT
+    100034: Villain:Tail2_JNT
+    100036: Villain:Tail3_JNT
+    100038: Villain:Tail_CNTL
+    100040: Villain:Tail_CNTL1
+    100042: Villain:Tail_CNTL2
+    100044: Villain:Tail_CNTL_Grp
+    100046: Villain:Tail_CNTL_Grp1
+    100048: Villain:Tail_CNTL_Grp2
+    100050: Villain:Transform
+    100052: Villain:Transform_CNTL
+    400000: //RootNode
+    400002: Move_Root_CNTL
+    400004: MOVE_ROOT_GRP
+    400006: Villain:CNTL
+    400008: Villain:COG
+    400010: Villain:COG_CNTL
+    400012: Villain:Enemy_Geo
+    400014: Villain:Enemy_Geo 1
+    400016: Villain:Head_CNTL
+    400018: Villain:Head_CNTL_Grp
+    400020: Villain:Head_JNT
+    400022: Villain:Jaw_CNTL
+    400024: Villain:Jaw_CNTL_Grp
+    400026: Villain:Jaw_JNT
+    400028: Villain:JNT
+    400030: Villain:Root_JNT
+    400032: Villain:Tail1_JNT
+    400034: Villain:Tail2_JNT
+    400036: Villain:Tail3_JNT
+    400038: Villain:Tail_CNTL
+    400040: Villain:Tail_CNTL1
+    400042: Villain:Tail_CNTL2
+    400044: Villain:Tail_CNTL_Grp
+    400046: Villain:Tail_CNTL_Grp1
+    400048: Villain:Tail_CNTL_Grp2
+    400050: Villain:Transform
+    400052: Villain:Transform_CNTL
+    2100000: lambert1
+    4300000: Villain:Enemy_Geo
+    7400000: Attack
+    9500000: //RootNode
+    13700000: Villain:Enemy_Geo 1
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

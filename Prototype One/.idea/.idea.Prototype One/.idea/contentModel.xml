@@ -172,6 +172,7 @@
           <e p="DoNotDestory.cs" t="Include" />
           <e p="DoubleClick.cs" t="Include" />
           <e p="doubleJump.cs" t="Include" />
+          <e p="Enemy_Animation_Script.cs" t="Include" />
           <e p="EnemyAttack.cs" t="Include" />
           <e p="EnemyChase.cs" t="Include" />
           <e p="FallingBridge.cs" t="Include" />
