@@ -162,7 +162,6 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="AnimationCNTL.cs" t="Include" />
           <e p="CameraMovment.cs" t="Include" />
           <e p="CharMove.cs" t="Include" />
           <e p="Damage.cs" t="Include" />
@@ -189,6 +188,7 @@
           <e p="PowerUp.cs" t="Include" />
           <e p="SlowDown.cs" t="Include" />
           <e p="SpeedGaudge.cs" t="Include" />
+          <e p="Sprite_Enabler.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
