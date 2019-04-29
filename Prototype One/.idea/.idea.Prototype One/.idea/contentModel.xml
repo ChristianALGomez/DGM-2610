@@ -178,6 +178,7 @@
           <e p="FallingWallScript.cs" t="Include" />
           <e p="ForceApplyedDown.cs" t="Include" />
           <e p="HighlightItem.cs" t="Include" />
+          <e p="Hurt_Sound_Activate.cs" t="Include" />
           <e p="InstaDeath.cs" t="Include" />
           <e p="LinkSpeed.cs" t="Include" />
           <e p="OFF_ON_Switch.cs" t="Include" />
@@ -185,6 +186,7 @@
           <e p="OutLine.cs" t="Include" />
           <e p="PlatformController.cs" t="Include" />
           <e p="PointToMouse.cs" t="Include" />
+          <e p="Power_Up_Sound_Activate.cs" t="Include" />
           <e p="PowerUp.cs" t="Include" />
           <e p="Running_Sound_Activate.cs" t="Include" />
           <e p="SlowDown.cs" t="Include" />

@@ -28,8 +28,8 @@ public class CharMove : MonoBehaviour
     public bool moveChecker;
     public bool SlowDownChecker;
     public bool DimageChecker;
-    public Running_Sound_Activate sound;
-    
+    public Hurt_Sound_Activate Hurt;
+    public Power_Up_Sound_Activate PUP;
     private void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -130,7 +130,6 @@ public class CharMove : MonoBehaviour
 
     public void run()
     {
-        //sound.FR_Source.Play();
         position.x = Input.GetAxis("Horizontal") * MoveSpeed * SpeedUp * Time.deltaTime;
         //running = true;
         JumpCompensatorForRun();
@@ -171,6 +170,7 @@ public class CharMove : MonoBehaviour
 
     public void Increase()
     {
+        PUP.Pup_Source.Play();
         incrementSpeedGaudge(+10);
         MoveSpeed = MoveSpeed + speedRecover;
         if (MoveSpeed > 25)
@@ -212,7 +212,7 @@ public class CharMove : MonoBehaviour
 
     public void Hurting()
     {
-        sound.H_Source.Play();
+        Hurt.H_Source.Play();
         //DimageChecker = true;
         StartCoroutine(Flicker());
     }
