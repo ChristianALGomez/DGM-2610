@@ -27,6 +27,8 @@ public class CharMove : MonoBehaviour
     public bool idel;
     public bool moveChecker;
     public bool SlowDownChecker;
+    public bool DimageChecker;
+    public Running_Sound_Activate sound;
     
     private void Start()
     {
@@ -40,6 +42,7 @@ public class CharMove : MonoBehaviour
         moveChecker = false;
         GameObject Player = GameObject.FindGameObjectWithTag("Player");
         DJ = Player.GetComponent<DoubleJump>();
+        //DimageChecker = false;
     }
 
     private void Update()
@@ -127,9 +130,11 @@ public class CharMove : MonoBehaviour
 
     public void run()
     {
+        //sound.FR_Source.Play();
         position.x = Input.GetAxis("Horizontal") * MoveSpeed * SpeedUp * Time.deltaTime;
         //running = true;
         JumpCompensatorForRun();
+        //sound.FR_Source.Play();
         //moving = false;
         //DJ.jumping = false;
         //anim.Play("Fast_Run",-1,0f);
@@ -198,13 +203,17 @@ public class CharMove : MonoBehaviour
 
     IEnumerator Flicker()
     {
+        //DimageChecker = true;
         DImage.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         DImage.SetActive(false);
+        //DimageChecker = false;
     }
 
     public void Hurting()
     {
+        sound.H_Source.Play();
+        //DimageChecker = true;
         StartCoroutine(Flicker());
     }
 

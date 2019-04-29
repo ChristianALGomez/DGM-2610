@@ -186,6 +186,7 @@
           <e p="PlatformController.cs" t="Include" />
           <e p="PointToMouse.cs" t="Include" />
           <e p="PowerUp.cs" t="Include" />
+          <e p="Running_Sound_Activate.cs" t="Include" />
           <e p="SlowDown.cs" t="Include" />
           <e p="SpeedGaudge.cs" t="Include" />
           <e p="Sprite_Enabler.cs" t="Include" />
