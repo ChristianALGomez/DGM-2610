@@ -9,7 +9,7 @@ public class InstaDeath : MonoBehaviour
     {
         if (other.gameObject.name == ("Player"))
         {
-            SceneManager.LoadScene("Level");
+            SceneManager.LoadScene("Game_Over");
         }
     }
 }

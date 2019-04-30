@@ -50481,6 +50481,7 @@ GameObject:
   - component: {fileID: 1447884735}
   - component: {fileID: 1447884734}
   - component: {fileID: 1447884733}
+  - component: {fileID: 1447884737}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -50560,6 +50561,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1447884737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447884732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d53cac569efc2249ad734c23fb25434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1447985241 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100620, guid: 70b5fb2ca14308447b2c989f2cea4e19,
@@ -62428,7 +62441,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b2e75a4a50c552d40be40f7033cec5eb, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.043
+  m_Volume: 0.15
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -63941,7 +63954,7 @@ Light:
     m_NormalBias: 0.4
     m_NearPlane: 0.2
   m_Cookie: {fileID: 0}
-  m_DrawHalo: 1
+  m_DrawHalo: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 1
   m_CullingMask:
@@ -73480,13 +73493,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: cffa7394ac5a5cf4fa63c1bc603b702f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.512
+  m_Volume: 0.58
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 86
+  Priority: 48
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

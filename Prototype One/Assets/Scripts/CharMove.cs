@@ -141,7 +141,7 @@ public class CharMove : MonoBehaviour
     public void PlayerDeath()
     {
         //SceneManager.GetActiveScene();
-        SceneManager.LoadScene("Level");
+        SceneManager.LoadScene("Game_Over");
     }
     
     public void DecreaseViaSpikes()

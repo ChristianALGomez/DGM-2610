@@ -178,6 +178,7 @@
           <e p="FallingWallScript.cs" t="Include" />
           <e p="ForceApplyedDown.cs" t="Include" />
           <e p="HighlightItem.cs" t="Include" />
+          <e p="Holder.cs" t="Include" />
           <e p="Hurt_Sound_Activate.cs" t="Include" />
           <e p="InstaDeath.cs" t="Include" />
           <e p="LinkSpeed.cs" t="Include" />
